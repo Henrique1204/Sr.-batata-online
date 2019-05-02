@@ -1,0 +1,22 @@
+@media(max-width: 360px){
+
+    .telaInicial>p{
+        font-size: 16pt;
+    }
+}
+
+@media (min-width: 440px){
+
+    .telaInicial{
+        width: 400px;
+        height: 90%;
+    }
+
+    .telaInicial>p{
+        font-size: 24pt;
+        text-align: center;
+        line-height: 100px;
+        width: 90%;
+        height: 15%;
+    }
+}
