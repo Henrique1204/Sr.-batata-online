@@ -10,5 +10,6 @@
     .tela{
         width: 400px;
         height: 90vh;
+        border: solid 3px rgb(143, 103, 2);
     }
 }

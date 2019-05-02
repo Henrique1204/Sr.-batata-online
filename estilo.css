@@ -1,26 +1,27 @@
 body{
+    overflow: hidden;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: black;
 }
 
 .tela{
-    margin: 0;
+    margin:0;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border: solid 3px rgb(143, 103, 2);;
 }
 
 #inicial{
+    display: none;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
 }
 
 #inicial>p{
@@ -50,4 +51,38 @@ body{
 
 #inicial>img{
     width: 60%;
+}
+
+#introducao{
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#introducao>p{
+    padding: 4px;
+    width: 90%;
+    font-size: 16pt;
+    color: white;
+}
+
+#introducao>p:nth-child(2){
+    text-align: right;
+}
+
+#introducao div{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#introducao button{
+    font-size: 15pt;
+    font-weight: bolder;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(11, 83, 11);
+    border: none;
+    border-radius: 50%;
 }
