@@ -1,8 +1,27 @@
-@media(max-width: 360px){
-
-    #inicial>p{
+@media(max-width: 300px){
+    
+    h1{
         font-size: 16pt;
     }
+
+    #introducao>p{
+        font-size: 14pt;
+    }
+
+    #pergunta{
+        font-size: 16pt;
+    }
+
+    #erro p{
+        font-size: 18pt;
+    }
+
+    #tentarDeNovo{
+        width: 150px;
+        height: 45px;
+        font-size: 12pt;
+    }
+
 }
 
 @media (min-width: 440px){

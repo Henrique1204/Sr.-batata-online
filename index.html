@@ -11,11 +11,11 @@
 </head>
 <body>
     <div class="tela" id="inicial">
-        <p>Entrevista com Sr. Batata</p>
+        <h1>Entrevista com Sr. Batata</h1>
         <img src="img/srbatata.gif" alt="Sr. Batata">
         <button id="comeca">Começar</button>
     </div>
-
+    
     <div class="tela" id="introducao">
         <p>Está aberto o processo seletivo para trabalhar na maior empresa de batata do mundo.</p>
         <p>Você acha que tem o que é preciso para ser um dos novos funcionários das Industrias Batata's? </p>
@@ -24,12 +24,24 @@
             <button id="avancar">></button>
         </div>
     </div>
-
-    <div class="tela" id="p1">
-        <p class="pergunta">Qual o melhor legume?</p>
-        <button class="alternativasFase1" id="certo">A) Batata.</button>
-        <button class="alternativasFase1">B) Cenoura.</button>
-        <button class="alternativasFase1">C) Alface.</button>
+    
+    <div class="tela" id="questao">
+        <h2 id="pergunta">Qual o melhor legume?</h2>
+        <button class="alternativa p1" >A) Batata.</button>
+        <button class="alternativa p1" >B) Cenoura.</button>
+        <button class="alternativa p1" >C) Alface.</button>
+        <button class="alternativa p2" >A) Um saco por pessoa.</button>
+        <button class="alternativa p2" >B) 1 kg.</button>
+        <button class="alternativa p2" >C) Batata nunca é demais.</button>
+        <button class="alternativa p3" >A) 5.</button>
+        <button class="alternativa p3" >B) 4.</button>
+        <button class="alternativa p3" >C) O limite é a imaginação.</button>
+    </div>
+    
+    <div class="tela" id="erro">
+        <h2>Errou!!!</h2>
+        <p><span id="piadoca">--</span> Você não passou na entrevista.</p>
+        <button id="tentarDeNovo">Tentar Novamente</button>
     </div>
 </body>
 </html>
