@@ -1,9 +1,8 @@
-@media(max-width: 300px){
+@media(max-width: 360px){
     
     h1{
         font-size: 16pt;
     }
-
     #introducao>p{
         font-size: 14pt;
     }
